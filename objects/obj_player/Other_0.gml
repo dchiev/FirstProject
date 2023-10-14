@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-wrap
-
+/// @DnDAction : YoYo Games.Movement.Wrap_Room
+/// @DnDVersion : 1
+/// @DnDHash : 543AD676
+move_wrap(1, 1, 0);
