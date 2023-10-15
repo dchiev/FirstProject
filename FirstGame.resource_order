@@ -23,6 +23,7 @@
     {"name":"obj_asteroid","order":2,"path":"objects/obj_asteroid/obj_asteroid.yy",},
     {"name":"obj_score","order":4,"path":"objects/obj_score/obj_score.yy",},
     {"name":"snd_explode","order":1,"path":"sounds/snd_explode/snd_explode.yy",},
+    {"name":"obj_spawner","order":5,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"spr_asteroid_s","order":3,"path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
