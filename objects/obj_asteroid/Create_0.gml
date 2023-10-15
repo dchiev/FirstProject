@@ -2,7 +2,7 @@
 // You can write your code in this editor
 // setting random frame of the sprite
 
-while(place_meeting(x,y,obj_player)){
+while(distance_to_object(obj_player)<100){
 	x = random(room_width);
 	y = random(room_height);
 }

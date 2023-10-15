@@ -36,8 +36,10 @@
   "resources": [
     {"id":{"name":"obj_asteroid_s","path":"objects/obj_asteroid_s/obj_asteroid_s.yy",},},
     {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},},
+    {"id":{"name":"spr_deadplayer","path":"sprites/spr_deadplayer/spr_deadplayer.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"obj_deadplayer","path":"objects/obj_deadplayer/obj_deadplayer.yy",},},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
