@@ -21,6 +21,7 @@
     {"name":"spr_asteroid","order":2,"path":"sprites/spr_asteroid/spr_asteroid.yy",},
     {"name":"spr_deadplayer","order":4,"path":"sprites/spr_deadplayer/spr_deadplayer.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"fnt_large","order":1,"path":"fonts/fnt_large/fnt_large.yy",},
     {"name":"obj_deadplayer","order":6,"path":"objects/obj_deadplayer/obj_deadplayer.yy",},
     {"name":"obj_asteroid","order":2,"path":"objects/obj_asteroid/obj_asteroid.yy",},
     {"name":"obj_score","order":4,"path":"objects/obj_score/obj_score.yy",},
@@ -28,6 +29,7 @@
     {"name":"obj_spawner","order":5,"path":"objects/obj_spawner/obj_spawner.yy",},
     {"name":"spr_asteroid_s","order":3,"path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"obj_gameover","order":7,"path":"objects/obj_gameover/obj_gameover.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
   ],
 }
