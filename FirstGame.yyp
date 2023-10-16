@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"obj_asteroid_s","path":"objects/obj_asteroid_s/obj_asteroid_s.yy",},},
+    {"id":{"name":"spr_player_i","path":"sprites/spr_player_i/spr_player_i.yy",},},
     {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},},
     {"id":{"name":"spr_deadplayer","path":"sprites/spr_deadplayer/spr_deadplayer.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
