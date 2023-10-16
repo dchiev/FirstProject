@@ -5,7 +5,9 @@ draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_set_font(fnt_large);
 
-draw_text(128,64,global.points);
+draw_text(600,64,"Score: " + string(global.points));
+
+draw_text(64,64, "Lives: " + string(global.life));
 
 
 

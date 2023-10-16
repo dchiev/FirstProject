@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 11CC48E8
 /// @DnDApplyTo : other
-/// @DnDArgument : "code" "/// @description restart game$(13_10)// You can write your code in this editor$(13_10)$(13_10)$(13_10)$(13_10)var randomangle = random(360);$(13_10)var o;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 0 + randomangle;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 120 + randomangle;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 240 + randomangle;$(13_10)$(13_10)with (obj_deadplayer) {$(13_10)	$(13_10)	direction = angle;$(13_10)	image_angle = angle;$(13_10)	speed = 3;$(13_10)}$(13_10)$(13_10)audio_play_sound(snd_explode, 10, 0);$(13_10)instance_create_layer(0,0,"Instances",obj_gameover);$(13_10)instance_destroy();"
+/// @DnDArgument : "code" "/// @description restart game$(13_10)// You can write your code in this editor$(13_10)$(13_10)$(13_10)$(13_10)var randomangle = random(360);$(13_10)var o;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 0 + randomangle;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 120 + randomangle;$(13_10)o=instance_create_layer(x,y,"Instances",obj_deadplayer);$(13_10)o.angle = 240 + randomangle;$(13_10)$(13_10)with (obj_deadplayer) {$(13_10)	$(13_10)	direction = angle;$(13_10)	image_angle = angle;$(13_10)	speed = 3;$(13_10)}$(13_10)$(13_10)audio_play_sound(snd_explode, 10, 0)$(13_10)$(13_10)if (global.life > 0 ){$(13_10)	global.life -=1;$(13_10)	instance_create_layer(room_width/2,room_height/2,"Instances",obj_player);$(13_10)} else {$(13_10)	instance_create_layer(0,0,"Instances",obj_gameover);$(13_10)}$(13_10)$(13_10)instance_destroy();"
 with(other) {
 /// @description restart game
 // You can write your code in this editor
@@ -25,7 +25,14 @@ with (obj_deadplayer) {
 	speed = 3;
 }
 
-audio_play_sound(snd_explode, 10, 0);
-instance_create_layer(0,0,"Instances",obj_gameover);
+audio_play_sound(snd_explode, 10, 0)
+
+if (global.life > 0 ){
+	global.life -=1;
+	instance_create_layer(room_width/2,room_height/2,"Instances",obj_player);
+} else {
+	instance_create_layer(0,0,"Instances",obj_gameover);
+}
+
 instance_destroy();
 }
